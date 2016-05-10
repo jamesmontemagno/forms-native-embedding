@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+	android:duration="400"
+	android:startOffset="1200"
+	android:propertyName="scaleX"
+	android:valueFrom="1"
+	android:valueTo="2.5" />

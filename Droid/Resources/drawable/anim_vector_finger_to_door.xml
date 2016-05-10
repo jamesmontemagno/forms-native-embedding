@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:drawable="@drawable/buzzer_animation_base_vector" >
+	<target
+		android:name="finger_grp"
+		android:animation="@anim/buzzer_finger_move" />
+	<target
+		android:name="buzzer_button_grp"
+		android:animation="@anim/buzzer_button_compress" />
+	<target
+		android:name="global_buzzer_group"
+		android:animation="@anim/buzzer_fade_out" />
+	<target
+		android:name="door_frame"
+		android:animation="@anim/door_trace_path" />
+	<target
+		android:name="knob"
+		android:animation="@anim/door_knob_fade_in" />
+	<target
+		android:name="knob_parent"
+		android:animation="@anim/door_knob_move" />
+	<target
+		android:name="door_shadow"
+		android:animation="@anim/door_shadow_appear" />
+	<target
+		android:name="door_shadow_parent"
+		android:animation="@anim/door_shadow_grow" />
+</animated-vector>

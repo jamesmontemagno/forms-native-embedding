@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+	<group android:name="global_buzzer_group" android:pivotX="24">
+	    <path
+	        android:name="buzzer_wall"
+	        android:fillColor="#ffffff"
+	        android:pathData="M 20 2 H 22 V 22 H 20 V 2 Z" />
+		<group android:name="buzzer_button_grp" android:pivotX="21">
+		    <path
+		        android:fillColor="#ffffff"
+		        android:pathData="M 15 5.5 H 21 V 18.5 H 15 V 5.5 Z" />
+		</group>
+	    <group android:name="finger_grp">
+	        <path
+				android:name="finger"
+	            android:fillColor="#ffffff"
+	            android:pathData="M13,9.828c0,-1.802 -1.913,-1.828 -4.273,-1.828c-3.091,0 -6.727,0 -6.727,0l0,8.556c0,0 1.186,0 4.275,0c2.542,0 6.725,-2.691 6.725,-6.728Z" />
+	    </group>
+	</group>
+	<group android:name="global_door_group">
+        <path
+            android:name="door_frame"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+			android:trimPathEnd="0"
+            android:pathData="M 5 3 H 18 V 21 H 5 V 3 Z" />
+		<group android:name="knob_parent">
+	        <path
+	            android:name="knob"
+	            android:fillColor="#ffffff"
+				android:fillAlpha="0"
+	            android:pathData="M16,11.5c0,-0.552 -0.448,-1 -1,-1l-1,0c-0.552,0 -1,0.448 -1,1l0,1c0,0.552 0.448,1 1,1l1,0c0.552,0 1,-0.448 1,-1l0,-1Z" />
+		</group>
+		<group android:name="door_shadow_parent" android:pivotX="19">
+        	<path
+            	android:name="door_shadow"
+            	android:fillColor="#ffffff"
+				android:fillAlpha="0"
+            	android:pathData="M 17 2 H 19 V 22 H 17 V 2 Z" />
+		</group>
+    </group>
+</vector>
